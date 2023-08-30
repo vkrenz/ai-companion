@@ -1,7 +1,7 @@
 const RootPage = () => {
     return (
         <div>
-            Root Page (Protected via Authentication)
+            Root Page (Protected)
         </div>
     );
 }
