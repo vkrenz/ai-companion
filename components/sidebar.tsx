@@ -41,8 +41,9 @@ export const Sidebar = () => {
                                 pathname === route.href && "bg-primary/10 text-primary"
                             )}
                         >
-                            <div>
-                                
+                            <div className="flex flex-col gap-y-2 items-center flex-1">
+                                <route.icon className="h-5 w-5" />
+                                {route.label}
                             </div>
                         </div>
                     ))}
