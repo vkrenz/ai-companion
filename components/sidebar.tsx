@@ -32,6 +32,9 @@ export const Sidebar = () => {
 
     const onNavigate = ( url: string, pro: boolean ) => {
         // @Todo: Check if `pro` === true
+        if (pro) {
+            // Protected (Create)
+        }
 
         return router.push(url)
     }
